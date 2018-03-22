@@ -20,11 +20,17 @@
   cursor: pointer;
   padding: 0 16px;
   outline: 0;
+  opacity: 0;
+  transition: opacity .2s;
 
   & svg {
     max-width: 1.5em;
     max-height: 1.5em;
   }
+}
+
+.wrapper:hover .buttonArrow {
+  opacity: 1;
 }
 
 .imgBigDummy {
